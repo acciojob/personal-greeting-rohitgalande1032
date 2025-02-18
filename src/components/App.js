@@ -13,7 +13,7 @@ const App = () => {
       <label htmlFor="name">Enter your name: </label><br /> <br />
       <input onChange={handleOnchange} value={input} id="name"/>
 
-      <p>{input.length ? `Hello, ${input}!` : ""}</p>
+      <p>{input.length ? `Hello ${input}!` : ""}</p>
     </div>
   )
 }
